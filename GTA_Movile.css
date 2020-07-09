@@ -1,0 +1,93 @@
+
+body
+ {
+    background-image: url("Image/Fondo.gif");
+    height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+  }
+.navbar{
+    background-image: url("Image/metalGastado.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.container{
+    margin: auto;
+    }
+
+.row 
+{
+margin:auto;
+
+}
+
+.result {
+    padding: 10px;
+    font-size: 18px;
+    color: yellowgreen;
+}
+
+.card
+{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-image: url("Image/pantalla.jpg");
+    font-family: monospace;
+    color: whitesmoke;
+}
+
+#form {
+    background-image: url("Image/pantalla.jpg");
+    color: whitesmoke;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    border: none;
+
+}
+
+#text {
+    background-color:  transparent;
+    color: whitesmoke;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#btn {
+    margin-bottom: 30px;
+    background-image: url("Image/pantalla.jpg");
+    color: yellowgreen;
+    border: none;
+
+}
+
+#id{
+    background-color:  transparent;
+    color: whitesmoke;
+    border-color: yellowgreen;
+}
+
+img{
+    object-fit: contain;
+}
+
+.card-body {
+    background-image: url("Image/metal.png");
+}
+
+@media (max-width: 576px) {    
+.row  {
+        padding-top: 2px;
+   
+   } }
+
+@media (max-width: 1200px) {    
+    .row  {
+        padding-top: 200px;
+       
+       } }
+
